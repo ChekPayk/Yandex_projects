@@ -1,0 +1,26 @@
+:root {
+  --main-font-family: "Inter-Variable", sans-serif;
+  --accent-font-family: "PressStart2P", fantasy;
+  --weight-title: 715;
+  --weight-card-text: 410;
+  --background-image: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      rgb(0 0 0 / 0) 2px 4px
+    ),
+    repeating-linear-gradient(
+      180deg, 
+      #d3d3d3 0 2px, 
+      transparent 2px 4px
+      ),
+    linear-gradient(180deg,
+      #e7e7e7 0.01%,
+      #1a1a1a 100%
+      );
+  --accent-color: rgba(0, 0, 0, 1);
+  --background-color: rgba(255, 255, 255, 1);
+  --button-color: white;
+  --button-background: white;
+  --animation-like-color: red;
+  --backdrop-background-color: rgba(0 0 0 / 0.75);
+}
