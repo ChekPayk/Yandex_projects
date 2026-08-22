@@ -1,0 +1,25 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+    background-color: var(--color-background);
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    justify-content: center;
+    place-items: start center;
+    gap:32px;
+    flex: 1;
+}
+
+.column {
+    background-color: var(--color-bg);
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:24px;
+}

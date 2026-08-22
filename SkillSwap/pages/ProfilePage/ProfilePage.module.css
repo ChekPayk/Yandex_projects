@@ -1,0 +1,53 @@
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  gap: var(--space-lg, 24px);
+  padding: 32px 36px 60px;
+  background-color: var(--color-background, #f9faf7);
+}
+
+.basicContainer {
+  background: var(--color-card, #fff);
+  border-radius: 20px;
+}
+
+.menuContainer {
+  flex-shrink: 0;
+  min-width: 324px;
+}
+
+.infoContainer {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.basicContainerPadding {
+  padding: 60px;
+}
+
+.imageContainer {
+  max-width: 244px;
+  max-height: 244px;
+}
+
+.placeholderTitle {
+  margin: 0;
+}
+
+.noSkill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  color: var(--color-text-secondary, #666);
+  font-size: var(--font-size-lg, 18px);
+}

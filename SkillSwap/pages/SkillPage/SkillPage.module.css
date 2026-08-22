@@ -1,0 +1,19 @@
+.skillPage {
+  background-color: var(--color-bg-secondary);
+  margin: 0;
+}
+
+.userSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 32px 36px 60px;
+}
+
+.sliderWrapper {
+  margin-block-end: 60px;
+}
+
+.footerWrapper {
+  background-color: var(--color-bg);
+}

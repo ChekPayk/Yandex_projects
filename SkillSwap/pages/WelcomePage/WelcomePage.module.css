@@ -1,0 +1,80 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 160px);
+  text-align: center;
+  background-color: var(--color-background, #f9faf7);
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.authSection {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  width: 556px;
+  min-width: 556px;
+  border-radius: 12px;
+  padding: 112px 60px;
+  background: var(--color-card, #fff);
+}
+
+.title {
+  color: var(--color-text, #253017);
+  font-family: var(--font-jost, Jost, sans-serif);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 117%;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+.formsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.navigationFooter {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.textNavigationFooter {
+  color: var(--color-text-link, #508826);
+  font-family: var(--font-roboto, Roboto, sans-serif);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.visualSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 556px;
+  min-width: 556px;
+  border-radius: 12px;
+  padding: 132px 60px;
+  background: var(--color-card, #fff);
+}
