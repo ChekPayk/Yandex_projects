@@ -1,0 +1,19 @@
+.form {
+    max-inline-size: 436px;
+    letter-spacing: 4%;
+}
+
+.inputs {
+    margin-block-end: 35px;
+    display: grid;
+    gap:12px
+}
+
+.buttons {
+    display: flex;
+    gap:20px;
+}
+
+.button {
+    inline-size: 100%;
+}

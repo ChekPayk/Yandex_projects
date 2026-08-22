@@ -1,0 +1,126 @@
+.panel {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.typeContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.types {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: fit-content;
+}
+
+.skillsContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.gender {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: fit-content;
+}
+
+.genderContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: fit-content;
+}
+
+.cityContaier {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: fit-content;
+}
+
+section {
+  margin-top: 32px;
+  margin-left: 39px;
+}
+
+.allCitys {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.allSkills {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.citys {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.citysSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.subCategoryItem {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.subCategoryList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 20px;
+}
+
+.allTypes {
+  color: #508826;
+}
+
+.skills p,
+.genderContainer p,
+.cityContaier p {
+  font-family: Jost, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.skills span,
+.genderContainer span,
+.cityContaier span,
+.subCategoryItem span,
+.citys span,
+.types span {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  flex: 1;
+}

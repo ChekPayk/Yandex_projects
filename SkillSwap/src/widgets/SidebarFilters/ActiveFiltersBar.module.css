@@ -1,0 +1,46 @@
+.filterBar {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  align-items: center;
+  gap: 12px;
+  margin-left:52px;
+}
+
+.filtersParagraph {
+  font-family: Jost, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.1%;
+}
+
+.resetSpan {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #508826;
+  margin-left: 40px;
+  margin-right: 50px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.filetsActive {
+  gap: 8px;
+  display: inline-flex;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  border-radius: 12px;
+  padding: 12px 24px;
+  background-color: var(--color-card, #fff);
+}

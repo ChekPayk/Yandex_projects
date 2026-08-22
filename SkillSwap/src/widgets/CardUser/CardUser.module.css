@@ -1,0 +1,111 @@
+.userCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: auto;
+  width: 324px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: var(--color-card);
+}
+
+.userCard__info {
+  display: flex;
+  position: relative;
+  gap: 12px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.userCard__avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.userCard__text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 4px;
+  justify-content: center;
+}
+
+.userCard__name {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--font-jost, Jost, sans-serif);
+}
+
+.userCard__textStyle {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: var(--font-roboto, Roboto, sans-serif);
+}
+
+.iconLike {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.userCard__bio {
+  font-family: var(--font-roboto, Roboto, sans-serif);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.userCard__skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 208px;
+}
+
+.userCard__skills__option {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.userCard__skill__list {
+  display: flex;
+  justify-content: start;
+  gap: 4px;
+}
+
+.userCard__skill__list__item {
+  list-style: none;
+  padding: 8px 0;
+}
+
+.userCard__skill__heading {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-roboto, Roboto, sans-serif);
+}
+
+.userCardButton {
+  width: 100%;
+  height: 48px;
+  margin-top: 8px;
+}
+
+.userCard__avatarWrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.userCard__avatarWrapper > * {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
